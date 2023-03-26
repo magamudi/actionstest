@@ -18,4 +18,4 @@ terraform {
     region = "us-east-2"
     # Replace this with your DynamoDB table name!
 }
-
+}
