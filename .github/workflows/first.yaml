@@ -5,11 +5,10 @@ on:
     
 env:
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY }}
-  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESSKEY }}
-    
+  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESSKEY }}  
 jobs:
   terraform-workflow:
-      permissions:
+    permissions:
       contents: write
       issues: write
       pull-requests: write
